@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.hero{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	gap:10px;
+}
+.image-container{
+	width:70%;
+	height:100%;
+}
+.image-container img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	/* border:1px solid; */
+}
+.side-section{
+	width:30%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	gap:15px;
+	align-items:center;
+	text-align:center;
+	/* border:1px solid; */
+}
+.side-section button{
+	padding:10px;
+	border-radius:3px;
+	border-color:white;
+	color:white;
+	font-weight:600;
+	background-color:red;
+	box-shadow: 10px 8px 30px grey;
+}
